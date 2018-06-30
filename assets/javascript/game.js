@@ -7,7 +7,7 @@ $(document).ready(function () {
         crystalScores: [],
         gameOver: false,
         //crystalize() initializes the game. Reinitializes values and updates text on screen.
-        //crystal scores are random numbers 1-9 checked for duplicity and put in an empty array
+        //crystal scores are random numbers 1-12 checked for duplicity and put in an empty array
         crystalize: function () {
             this.gameOver = false;
             this.currentScore = 0;
@@ -16,7 +16,7 @@ $(document).ready(function () {
             $("#target-score").text(this.targetScore);
             this.crystalScores = [];
             while (this.crystalScores.length < 4) {
-                var num = Math.floor(Math.random() * 9) + 1;
+                var num = Math.floor(Math.random() * 12) + 1;
                 if (this.crystalScores.indexOf(num) > -1) continue;
                 this.crystalScores[this.crystalScores.length] = num;
             }
