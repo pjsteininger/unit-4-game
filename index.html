@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Crystal Collector!</h1>
+    </div>
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+        <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above
+            the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time the game starts, it will change the values of the crystals.</p>
+    </div>
+    <div>
+        <div id="target-score">
+            <p>0</p>
+
+        </div>
+        <div id="wins-losses">
+            <p>Wins:
+                <span id="wins-count">0</span>
+            </p>
+            <p>Losses:
+                <span id="losses-count">0</span>
+            </p>
+            <p id="win-loss-message"></p>
+        </div>
+    </div>
+    <div id="crystal-buttons">
+        <img class="crystal" alt=crystal1 src="assets/images/gem1.png">
+        <img class="crystal" alt=crystal2 src="assets/images/gem2.png">
+        <img class="crystal" alt=crystal3 src="assets/images/gem3.png">
+        <img class="crystal" alt=crystal4 src="assets/images/gem4.png">
+    </div>
+    <div class="score">
+        <div id="your-score-is">
+            <p>Your total score is:</p>
+        </div>
+        <div id="new-game">
+            <button id="new-game-button">New game</button>
+        </div>
+        <div id="current-score">
+            <p>0</p>
+        </div>
+    </div>
+</body>
+
+</html>

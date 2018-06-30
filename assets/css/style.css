@@ -1,0 +1,86 @@
+body {
+    margin: 20px;
+    background-image: url("../images/hexbg.png");
+}
+#title {
+    color: white;
+    background-color: #B40;
+    padding: 20px 5px 20px 5px;
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    font-size: 3em;
+}
+#instructions {
+    color: green;
+    font-weight: bold;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    background-color: #ffd7b9;
+    display: block;
+    width: 500px;
+    margin: 5px;
+    padding: 5px;
+}
+p {
+    margin: 10px;
+}
+#target-score {
+    color: #400040;
+    background-color: #00AA66;
+    width: 310px;
+    height: 120px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    font-size: 40px;
+}
+#wins-losses {
+    background-color: cyan;
+    width: 130px;
+    height: 140px;
+    margin: 5px;
+    display: inline-block;
+}
+#crystal-buttons {
+    margin: 5px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.score {
+    color: white;
+    width: 485px;
+    float: left;
+    margin-left: 5px;
+}
+#your-score-is {
+    margin-bottom: 10px;
+    width: 365px;
+    padding: 5px;
+    display: inline-block;
+    background-color: teal;
+}
+#current-score {
+    background-color: teal;
+    padding: 10px 0 0 10px;
+    height: 140px;
+    font-size: 40px;
+    width: 365px;
+    display: inline-block;
+}
+#new-game {
+    visibility: hidden;
+    width: 100px;
+    height: 205px;
+    float: right;
+    margin: 0;
+}
+#new-game-button {
+    height: 100%;
+    width: 100%;
+}
