@@ -12,7 +12,7 @@ $(document).ready(function () {
             this.gameOver = false;
             this.currentScore = 0;
             $("#current-score").text(this.currentScore);
-            this.targetScore = Math.floor(Math.random() * 5 + 35);
+            this.targetScore = Math.floor(Math.random() * 102 + 19);
             $("#target-score").text(this.targetScore);
             this.crystalScores = [];
             while (this.crystalScores.length < 4) {
